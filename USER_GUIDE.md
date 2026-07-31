@@ -12,7 +12,7 @@
 ### 1. 安装
 
 ```bash
-cd /Users/lucky/Documents/WorkSapce/QoderSM
+cd <源码目录>
 make install
 ```
 
@@ -106,7 +106,7 @@ qoder-sm restore ~/Documents/qoder-backups/qoder-backup-all-[最新].json
 crontab -e
 
 # 添加每天晚上8点自动备份
-0 20 * * * /Users/lucky/Documents/WorkSapce/QoderSM/backup.sh >> ~/qoder-backup.log 2>&1
+0 20 * * * /path/to/源码目录/backup.sh >> ~/qoder-backup.log 2>&1
 ```
 
 ## 数据说明

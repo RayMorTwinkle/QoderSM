@@ -1,22 +1,21 @@
 # Qoder 会话管理器
 
 解决Qoder IDE切换用户时会话丢失的问题，提供图形化界面管理会话。
-<img width="2000" height="1456" alt="7640411f-fb78-4123-97f5-14d358e3942a" src="https://github.com/user-attachments/assets/013d84a5-6833-4d10-9f7a-f671c8ee4284" />
 
 ## 功能特性
 
 - 🖥️ **Web图形界面** - 美观的Web界面查看和管理会话
+- 📁 **按工作区分组** - 自动按工作区目录分组浏览全部会话（含模型思考、正文、工具调用）
+- 📤 **导出功能** - 将会话导出为Markdown格式（单个会话或全部）
 - 💾 **快速备份** - 一键备份所有工作区的聊天会话
 - 🔄 **轻松恢复** - 快速恢复之前的会话记录
-- 📊 **会话浏览** - 查看所有工作区的会话历史
-- 📤 **导出功能** - 将会话导出为Markdown格式
 
 ## 快速开始
 
 ### 安装
 
 ```bash
-cd /Users/lucky/Documents/WorkSapce/QoderSM
+cd <源码目录>
 make deps
 make install
 ```
@@ -63,4 +62,4 @@ build/bin/qoder-sm restore ~/Documents/qoder-backups/qoder-backup-all-xxx.json
 
 - 应用: `/Applications/QoderSessionManager.app`
 - 备份: `~/Documents/qoder-backups/`
-- 源码: `/Users/lucky/Documents/WorkSapce/QoderSM/`
+- 源码: 本仓库（克隆到任意目录后 `make install` 安装）
