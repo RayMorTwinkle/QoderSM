@@ -1,0 +1,7 @@
+<svg viewBox="0 0 512 512" width="512" height="512" xmlns="http://www.w3.org/2000/svg">
+  <title>restore-chat</title>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#8B5CF6"/><stop offset="100%" stop-color="#5B21B6"/></linearGradient><filter id="sh" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#000000" flood-opacity="0.35"/></filter></defs>
+  <g filter="url(#sh)"><rect x="51" y="51" width="410" height="410" rx="94" fill="url(#bg)"/></g>
+  <rect x="51" y="51" width="410" height="410" rx="94" fill="none" stroke="#FFFFFF" stroke-opacity="0.14" stroke-width="2.5"/><rect x="56" y="56" width="400" height="400" rx="89" fill="none" stroke="#FFFFFF" stroke-opacity="0.07" stroke-width="2"/>
+  <g transform="translate(141,146) scale(2.24)"><g transform="translate(-9,-7)"><path d="M25 16 H71 A12 12 0 0 1 83 28 V46 A12 12 0 0 1 71 58 H48 L30 74 L34 58 H31 A12 12 0 0 1 19 46 V28 A12 12 0 0 1 31 16 Z" fill="#FFFFFF"/><circle cx="80" cy="78" r="20" fill="#EDE9FE" stroke="#4C1D95" stroke-width="3.5"/><circle cx="80" cy="78" r="11.0" fill="none" stroke="#6D28D9" stroke-width="4.0" stroke-dasharray="51.84 17.28" stroke-linecap="butt"/><polygon points="80,62.2 88.4,67.0 80,71.8" fill="#6D28D9"/></g></g>
+</svg>
