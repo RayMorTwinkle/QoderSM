@@ -334,6 +334,14 @@ This repository currently ships no open-source license file. If you intend to di
 
 ---
 
+## 🙏 Credits
+
+- This project is adapted from **[luckySpro/QoderSessionManager](https://github.com/luckySpro/QoderSessionManager)**. It extends the original with modern CLI `transcript/*.jsonl` parsing, `show` / `export` / `list-backups` subcommands and a menu-bar entry.
+- Qoder session storage format reference: [Session Management — Qoder CLI](https://docs.qoder.com/cli/sessions).
+- The icon, bilingual README and architecture diagrams in this repository are re-authored for this project.
+
+---
+
 <div align="center">
 <sub>QoderSM · so that every account switch is no longer a goodbye</sub>
 </div>

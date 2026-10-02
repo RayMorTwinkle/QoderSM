@@ -334,6 +334,14 @@ A：SQLite 驱动 `mattn/go-sqlite3` 是 CGO 实现，需要本机 C 编译器�
 
 ---
 
+## 🙏 致谢 / Credits
+
+- 本项目改编自 **[luckySpro/QoderSessionManager](https://github.com/luckySpro/QoderSessionManager)**（原作者的 Qoder 会话管理工具）。在此基础上扩展了新版 CLI `transcript/*.jsonl` 解析、`show` / `export` / `list-backups` 子命令与菜单栏入口。
+- Qoder 会话存储格式参考官方文档：[Session Management — Qoder CLI](https://docs.qoder.com/cli/sessions)。
+- 本仓库的图标、README（中英双语）与架构图为本项目重制。
+
+---
+
 <div align="center">
 <sub>QoderSM · 让每一次换号，都不再是一次告别</sub>
 </div>
